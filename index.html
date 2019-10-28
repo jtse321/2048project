@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>2048</title>
+
+    <!-- Include links to CSS stylesheets below -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="node_modules/bulma/css/bulma.css">
+
+</head>
+
+<body>
+    <div class="banner">
+        <h1>2848</h1>
+        <subtitle>Press the arrow keys to combine like numbers and get to 2048!</subtitle>
+    </div>
+    <div id="root" class="columns"></div>
+    <p id="winner" hidden>YOU WON!</p>
+    <p id="over" hidden>GAME OVER. TRY AGAIN?</p>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="engine/game.js"></script>
+    <script src="render.js" type="module"></script>
+</body>
+
+</html>

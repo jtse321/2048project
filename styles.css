@@ -1,0 +1,22 @@
+.grid {
+    display: grid;
+    grid-template-columns: 15vh 15vh 15vh 15vh;
+    grid-template-rows: 15vh 15vh 15vh 15vh;
+}
+
+.indexx {
+    border-style: solid;
+    border-width: 2.5px;
+    text-align: center;
+    padding-top: 30%;
+    font-size: 200%;
+}
+
+.banner {
+    background-color: salmon;
+    padding: 5px;
+}
+
+body {
+    background-color: rgb(134, 172, 196);
+}
